@@ -1,0 +1,26 @@
+<html lang="zh"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="shortcut icon" href="https://blingcc233.github.io/icon.ico"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>V2ray</title><script src="https://cdn.jsdelivr.net/npm/jquery"></script><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></head><body>
+
+
+<style type="text/css">
+   .wrapper {position: relative;}
+   #input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+</style>
+
+<div class="wrapper">
+   <p id="text">我把你当兄弟你却想着复制我？</p>
+   <textarea id="input">V2ray</textarea>
+   <button onclick="copyText()">copy</button>
+</div>
+
+<script type="text/javascript">
+    function copyText() {
+      var text = document.getElementById("text").innerText;
+      var input = document.getElementById("input");
+      input.value = text; // 修改文本框的内容
+      input.select(); // 选中文本
+      document.execCommand("copy"); // 执行浏览器复制命令
+      alert("复制成功");
+    }
+  </script>
+  
+  </body></html>
