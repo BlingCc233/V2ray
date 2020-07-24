@@ -1,4 +1,4 @@
-# vtoray
+# CC-v2ray
 网上巴拉来的东西,自备用
 
 <a href="https://blingcc233.github.io/v2ray.html" target="_blank" style="text-decoration: none;">这是链接</a>
